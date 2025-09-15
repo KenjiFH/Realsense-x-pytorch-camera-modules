@@ -7,7 +7,7 @@ This repository contains Python scripts that demonstrate how to combine the **In
 
 ## Features
 
-  - **Live Camera Feed**: Both scripts stream **RGB** and/or **depth** data from a connected Intel RealSense camera.
+  - **Live Camera Feed**: Both scripts stream **RGB** and/or **depth** data from a connected Intel RealSense D435i camera.
   - **Real-Time Recognition**: `realsense_live_recognition.py` uses a pre-trained **ResNet18** model to perform live object classification on RGB frames.
   - **Object Detection**: `realsense_live_yolo_detection.py` leverages the **YOLOv5s** model from the Ultralytics library to perform live object detection, drawing bounding boxes and labels around detected objects.
   - **Visual Feedback**: The scripts display the live camera feed, with one showing side-by-side color and depth views, and the other showing the RGB stream with bounding boxes overlaid.
